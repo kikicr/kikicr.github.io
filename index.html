@@ -1,39 +1,81 @@
 <!DOCTYPE html>
 <html>
-<head>
-	  <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="assets/bootstrap-3.3.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/font-awesome-4.3.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/cust/style.css">
-	<title>kikiCreative</title>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>kikiCreative official</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/foundation.min.css" rel="stylesheet">
+ <link href="css/main.css" rel="stylesheet">
+    <script src="js/vendor/modernizr.js"></script>
+
 </head>
 <body>
-	<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">kiki Creative</a>
-    </div>
+<nav class="top-bar" data-topbar role="navigation">
+    <ul class="title-area">
+        <li class="name"><h1><a href="#">@kikiCreative</a></h1></li>
+        <li class="toggle-topbar menu-icon"><a href="" role="button" class="right-off-canvas-toggle"><span>Menu</span></a></li>
+    </ul>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">home</a></li>
-        <li><a href="post/list.html">post</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    <section class="top-bar-section">
+        <ul class="left">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Our Template</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </section>
 </nav>
-	<script src="assets/jquery-1.11.2/jquery-1.11.2.min.js"></script>
-	<script src="assets/bootstrap-3.3.2/js/bootstrap.min.js"></script>
-	<script src="assets/cust/lib.js"></script>	
+<header style="background:#2c3e50;">
+   
+    <div class="row" id="header-cr">
+<div class="large-12 collumns" style="z-index:99" >
+   
+    <h1 style="color:#ecf0f1" id="cr-text" >Creative Project</h1>
+    
+</div>
+
+</div>
+
+</header>
+<div class="row" >
+    <div class="large-12 columns">&nbsp;</div>
+    <div class="large-4 columns">
+        <img src="http://placehold.it/480x320&text=desktop">
+        <div class="panel">
+            <h5>Kamus Apps example</h5>
+            <p class="small-12 tag-app"><span class="label round">#mobile</span> <span class="label round success">#android</span></p>
+            <h6><a href="#" class="button preview-button" >Preview</a> <a href="#" class="button">Download</a></h6>
+        </div>    
+    </div>
+    <div class="large-4 columns">
+        <img src="http://placehold.it/480x320&text=desktop">
+        <div class="panel">
+            <h5>Mobile example</h5>
+            <p class="small-12 tag-app"><span class="label round">#mobile</span> <span class="label round success">#android</span></p>
+             <h6><a href="#" class="button preview-button" >Preview</a> <a href="#" class="button">Download</a></h6>
+        </div>    
+    </div>
+<div class="large-4 columns">
+        <img src="http://placehold.it/480x320&text=desktop">
+        <div class="panel">
+            <h5>Web example</h5>
+            <p class="small-12 tag-app"><span class="label round">#mobile</span> <span class="label round success">#android</span></p>
+             <h6><a href="#" class="button preview-button" >Preview</a> <a href="#" class="button">Download</a></h6>
+        </div>    
+    </div>
+</div>
+
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/vendor/jquery.particleground.min.js"></script>
+
+<script>$(document).fondation();</script>
+<script>$("#header-cr").particleground();
+        $("#cr-text").css({
+
+            'margin-top':($('#cr-text').height()/2)*-1
+       
+        });
+</script>
 </body>
 </html>

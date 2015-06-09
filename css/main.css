@@ -1,0 +1,10 @@
+.preview-button{
+	background:#e67e22;
+}
+.preview-button:hover{
+	background: #d35400;
+}
+
+.tag-app{
+	text-align: right;
+}
